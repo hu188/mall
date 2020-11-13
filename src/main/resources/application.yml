@@ -1,0 +1,10 @@
+server:
+  port: 8010
+spring:
+  profiles:
+    active: dev #选择环境，默认为开发环境
+
+mybatis:
+  mapper-locations:
+    - classpath:mapper/**/*.xml
+
